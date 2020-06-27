@@ -32,6 +32,7 @@ cleanup:
   - '*.la'
 modules:
   - shared-modules/intltool/intltool-0.51.json
+
   - name: mpfr
     config-opts:
       - --disable-static
@@ -39,6 +40,7 @@ modules:
       - type: archive
         url: https://ftp.gnu.org/gnu/mpfr/mpfr-4.0.2.tar.xz
         sha256: 1d3be708604eae0e42d578ba93b390c2a145f17743a744d8f3f8c2ad5855a38a
+
   - name: wxwidgets
     config-opts:
       - --enable-shared
@@ -70,6 +72,7 @@ modules:
       - type: archive
         url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.5.1/wxWidgets-3.0.5.1.tar.bz2
         sha256: 440f6e73cf5afb2cbf9af10cec8da6cdd3d3998d527598a53db87099524ac807
+
   - name: gnuplot
     config-opts:
       - --without-gd
@@ -84,6 +87,7 @@ modules:
       - type: archive
         url: https://downloads.sourceforge.net/gnuplot/gnuplot-5.2.8.tar.gz
         sha256: 60a6764ccf404a1668c140f11cc1f699290ab70daa1151bb58fed6139a28ac37
+
   - name: libqalculate
     config-opts:
       - --disable-static
@@ -92,6 +96,7 @@ modules:
       - type: archive
         url: https://github.com/Qalculate/libqalculate/releases/download/v3.11.0/libqalculate-3.11.0.tar.gz
         sha256: 6992ff25774a15d6a0b09542b1f137dd5dc00995dfe9a765205ec2da39b4e13f
+
   - name: qalculate-gtk
     config-opts:
       - --disable-static
