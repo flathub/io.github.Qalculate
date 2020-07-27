@@ -95,7 +95,7 @@ modules:
     sources:
       - type: archive
         url: https://github.com/Qalculate/libqalculate/releases/download/v3.12.0/libqalculate-3.12.0.tar.gz
-        sha256: f116abab32a0566d27afefed8d28b6c961afa586daf9c3c482f09de38088a452
+        sha256: ff6b56c2afbed4c37b37869fde3b45610722fa4bb4b802c84f7cb387968fbc68
 
   - name: qalculate-gtk
     config-opts:
