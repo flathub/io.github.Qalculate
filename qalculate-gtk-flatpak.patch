@@ -1,8 +1,8 @@
 diff --git a/data/qalculate-gtk.appdata.xml.in b/data/qalculate-gtk.appdata.xml.in
-index 4c2e95b..2085e45 100644
+index e93a26f..7269e65 100644
 --- a/data/qalculate-gtk.appdata.xml.in
 +++ b/data/qalculate-gtk.appdata.xml.in
-@@ -43,9 +43,6 @@
+@@ -43,16 +43,21 @@
    <kudo>UserDocs</kudo>
   </kudos>
   <launchable type="desktop-id">qalculate-gtk.desktop</launchable>
@@ -11,7 +11,23 @@ index 4c2e95b..2085e45 100644
 - </provides>
   <translation type="gettext">qalculate-gtk</translation>
   <releases>
-   <release version="3.11.0" date="2020-06-22">
+-  <release version="3.12.1" date="2020-08-02">
++  <release version="3.12.1" date="2020-08-05">
+    <description>
++    <p>This version includes some critical bug fixes.</p>
+     <p>Changes:</p>
+      <ul>
+       <li>Fix display of negative numbers with scientific notation</li>
++      <li>Fix display of negative numbers with scientific notation</li>
++      <li>Fix BTC, BYN, and BYR exchange rates</li>
++      <li>Fix exchange rates update time</li>
++      <li>Fix parsing of negative power in function arguments without parenthesis</li>
++      <li>Add arcsin, arccos, arsinh, arcosh, etc. as names for inverse trigonometric and hyperbolic functions</li>
++      <li>Interpret sin^-1, cos^-1, etc. as inverse functions (arcsin, arccos, etc.)</li>
++      <li>Add deftorad() and totient() functions</li>
+      </ul>
+    </description>
+   </release>
 diff --git a/src/interface.cc b/src/interface.cc
 index 07d680a..47efce9 100644
 --- a/src/interface.cc
