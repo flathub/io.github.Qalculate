@@ -1,6 +1,6 @@
 app-id: io.github.Qalculate
 runtime: org.gnome.Platform
-runtime-version: '3.36'
+runtime-version: '3.38'
 sdk: org.gnome.Sdk
 command: qalculate-gtk
 rename-appdata-file: qalculate-gtk.appdata.xml
@@ -38,8 +38,8 @@ modules:
       - --disable-static
     sources:
       - type: archive
-        url: https://ftp.gnu.org/gnu/mpfr/mpfr-4.0.2.tar.xz
-        sha256: 1d3be708604eae0e42d578ba93b390c2a145f17743a744d8f3f8c2ad5855a38a
+        url: https://ftp.gnu.org/gnu/mpfr/mpfr-4.1.0.tar.xz
+        sha256: 0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f
 
   - name: wxwidgets
     config-opts:
@@ -94,8 +94,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v3.15.0/libqalculate-3.15.0.tar.gz
-        sha256: ed6752cdc6fe6ffc444844e130820d720feba746f98447259117102f6196b216
+        url: https://github.com/Qalculate/libqalculate/releases/download/v3.16.0/libqalculate-3.16.0.tar.gz
+        sha256: d21445af45f2df241b191717c5a29fb93fe4fa938ea23bcc0d322d53f6f42327
 
   - name: qalculate-gtk
     config-opts:
@@ -105,7 +105,7 @@ modules:
       - --disable-gnome-search
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v3.15.0/qalculate-gtk-3.15.0.tar.gz
-        sha256: 3ecf5fc0a465e651ceb47aeea4ebb9f166771f9676c6ff78e9bccdb9d8494c6a
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v3.16.0/qalculate-gtk-3.16.0.tar.gz
+        sha256: 79cbdb9705921cbe5fe9593fb798cb68c455596bc20584c6d4c930c28137655f
       - type: patch
         path: qalculate-gtk-flatpak.patch
