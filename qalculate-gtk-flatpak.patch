@@ -1,5 +1,5 @@
 diff --git a/data/qalculate-gtk.appdata.xml.in b/data/qalculate-gtk.appdata.xml.in
-index 4c2e95b..2085e45 100644
+index 13c8856..e6c722e 100644
 --- a/data/qalculate-gtk.appdata.xml.in
 +++ b/data/qalculate-gtk.appdata.xml.in
 @@ -43,9 +43,6 @@
@@ -11,5 +11,4 @@ index 4c2e95b..2085e45 100644
 - </provides>
   <translation type="gettext">qalculate-gtk</translation>
   <releases>
-   <release version="3.11.0" date="2020-06-22">
- 
+   <release version="3.19.0" date="2021-05-24">
