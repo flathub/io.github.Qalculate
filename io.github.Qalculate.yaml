@@ -102,10 +102,9 @@ modules:
       - --disable-static
       - --enable-maintainer-mode
       - --with-webkitgtk
-      - --disable-gnome-search
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v3.19.0/qalculate-gtk-3.19.0.tar.gz
-        sha256: 9c060a9a0da9717e7c66acbfd3dfc8c556d731d83448195658219c1b4d5b21cc
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v3.19.0/qalculate-gtk-3.19.0a.tar.gz
+        sha256: 0c3842c7c0455ca4e5083b3c24c4c76a4c9e83e44e7808a6989967cb74dd3470
       - type: patch
         path: qalculate-gtk-flatpak.patch
