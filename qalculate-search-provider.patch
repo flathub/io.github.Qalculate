@@ -1,0 +1,11 @@
+diff --git a/data/io.github.Qalculate.search-provider.ini b/data/io.github.Qalculate.search-provider.ini
+index 99e9055..1cb630d 100644
+--- a/data/io.github.Qalculate.search-provider.ini
++++ b/data/io.github.Qalculate.search-provider.ini
+@@ -1,5 +1,5 @@
+ [Shell Search Provider]
+-DesktopId=qalculate-gtk.desktop
++DesktopId=io.github.Qalculate.desktop
+ BusName=io.github.Qalculate.SearchProvider
+ ObjectPath=/io/github/Qalculate/SearchProvider
+ Version=2

@@ -108,3 +108,5 @@ modules:
         sha256: 0c3842c7c0455ca4e5083b3c24c4c76a4c9e83e44e7808a6989967cb74dd3470
       - type: patch
         path: qalculate-gtk-flatpak.patch
+      - type: patch
+        path: qalculate-search-provider.patch
