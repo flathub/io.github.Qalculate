@@ -94,8 +94,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v3.20.0/libqalculate-3.20.0.tar.gz
-        sha256: 7f47e8e0485f99f3337524b2f06e5296c99239e08a31975bba675f81228592bc
+        url: https://github.com/Qalculate/libqalculate/releases/download/v3.20.1/libqalculate-3.20.1.tar.gz
+        sha256: cee57c21fd5e20862734d7712907824ef7c689efc7d54c237e3766b6c83c7ee7
 
   - name: qalculate-gtk
     config-opts:
@@ -104,8 +104,8 @@ modules:
       - --with-webkitgtk
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v3.20.0/qalculate-gtk-3.20.0.tar.gz
-        sha256: ffa16e9910d1d273f5a2759d93ec2c5c103e7878738ae5cf626c0603aebc8db0
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v3.20.1/qalculate-gtk-3.20.1.tar.gz
+        sha256: 3985766a7b8977a0d1f94b807ea66e388ed29192185394c9ccc7b5733e4ce136
       - type: patch
         path: qalculate-gtk-flatpak.patch
       - type: patch
