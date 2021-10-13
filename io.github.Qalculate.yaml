@@ -1,6 +1,6 @@
 app-id: io.github.Qalculate
 runtime: org.gnome.Platform
-runtime-version: '40'
+runtime-version: '41'
 sdk: org.gnome.Sdk
 command: qalculate-gtk
 rename-appdata-file: qalculate-gtk.appdata.xml
@@ -94,8 +94,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v3.20.1/libqalculate-3.20.1.tar.gz
-        sha256: cee57c21fd5e20862734d7712907824ef7c689efc7d54c237e3766b6c83c7ee7
+        url: https://github.com/Qalculate/libqalculate/releases/download/v3.21.0/libqalculate-3.21.0.tar.gz
+        sha256: 2a2b6f8de4b43acdff98efdda338436db1a3f7ecd994e1bc2a422a65fba03479
 
   - name: qalculate-gtk
     config-opts:
@@ -104,8 +104,8 @@ modules:
       - --with-webkitgtk
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v3.20.1/qalculate-gtk-3.20.1.tar.gz
-        sha256: 3985766a7b8977a0d1f94b807ea66e388ed29192185394c9ccc7b5733e4ce136
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v3.21.0/qalculate-gtk-3.21.0.tar.gz
+        sha256: 7927894cc09de2d5dde1ddee7e64ab372d926c812be4da216cf92d7658537595
       - type: patch
         path: qalculate-gtk-flatpak.patch
       - type: patch
