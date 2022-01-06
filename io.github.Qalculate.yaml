@@ -89,6 +89,10 @@ modules:
         sha256: 60a6764ccf404a1668c140f11cc1f699290ab70daa1151bb58fed6139a28ac37
 
   - name: libqalculate
+    build-options:
+      arch:
+        aarch64:
+          cxxflags: -fsigned-char
     config-opts:
       - --disable-static
       - --enable-maintainer-mode
@@ -98,6 +102,10 @@ modules:
         sha256: 533ec2fc3550b44a562e4ff93f2bb21332c802c60d13ae1323bfa54ffe5d57f6
 
   - name: qalculate-gtk
+    build-options:
+      arch:
+        aarch64:
+          cxxflags: -fsigned-char
     config-opts:
       - --disable-static
       - --enable-maintainer-mode
