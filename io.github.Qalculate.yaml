@@ -108,4 +108,4 @@ modules:
       - type: patch
         path: qalculate-search-provider.patch
       - type: patch
-        patch: webkit2gtk-4.1.patch
+        path: webkit2gtk-4.1.patch
