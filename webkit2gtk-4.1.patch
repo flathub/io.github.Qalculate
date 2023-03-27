@@ -1,0 +1,13 @@
+diff --git a/configure.ac b/configure.ac
+index be723fe..6cedf0f 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -87,7 +87,7 @@ GTK_LIBS="-export-dynamic $GTK_LIBS"
+ 
+ AC_ARG_WITH([webkitgtk], AS_HELP_STRING([--with-webkitgtk], [use WebKitGTK for display of the user manual]))
+ AS_IF([test "x$with_webkitgtk" = "xyes"], [
+-	PKG_CHECK_MODULES([WEBKITGTK], [webkit2gtk-4.0])
++	PKG_CHECK_MODULES([WEBKITGTK], [webkit2gtk-4.1])
+ 	AC_DEFINE([USE_WEBKITGTK], [1], [Use WebKitGTK])
+ 	AC_SUBST(WEBKITGTK_CFLAGS)
+ 	AC_SUBST(WEBKITGTK_LIBS)

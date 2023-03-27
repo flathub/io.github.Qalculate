@@ -107,3 +107,5 @@ modules:
         sha256: bbbd7fae6a6d367bbb692fbdf9bf7235828408b044284b2f0542d42a7d65e877
       - type: patch
         path: qalculate-search-provider.patch
+      - type: patch
+        patch: webkit2gtk-4.1.patch
