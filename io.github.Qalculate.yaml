@@ -89,8 +89,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v4.6.0/libqalculate-4.6.0.tar.gz
-        sha256: 07b11dba19a80e8c5413a6bb25c81fb30cc0935b54fa0c9090c4ff8661985e08
+        url: https://github.com/Qalculate/libqalculate/releases/download/v4.6.1/libqalculate-4.6.1.tar.gz
+        sha256: ed087bfdedea0fd0eb26eb37a25e4c55caccfe96d83933a3573c93241458cab3
 
   - name: qalculate-gtk
     build-options:
@@ -100,12 +100,10 @@ modules:
     config-opts:
       - --disable-static
       - --enable-maintainer-mode
-      - --with-webkitgtk
+      - --with-webkitgtk=4.1
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v4.6.0/qalculate-gtk-4.6.0.tar.gz
-        sha256: bbbd7fae6a6d367bbb692fbdf9bf7235828408b044284b2f0542d42a7d65e877
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v4.6.1/qalculate-gtk-4.6.1.tar.gz
+        sha256: b9c5e7f6510e8e7ab49fe0e0e8796148cf6ef3187f17cea7b19b71631df8a950
       - type: patch
         path: qalculate-search-provider.patch
-      - type: patch
-        path: webkit2gtk-4.1.patch
