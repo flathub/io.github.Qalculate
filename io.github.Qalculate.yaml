@@ -29,8 +29,8 @@ modules:
       - --disable-static
     sources:
       - type: archive
-        url: https://ftp.gnu.org/gnu/mpfr/mpfr-4.1.0.tar.xz
-        sha256: 0c98a3f1732ff6ca4ea690552079da9c597872d30e96ec28414ee23c95558a7f
+        url: https://ftp.gnu.org/gnu/mpfr/mpfr-4.2.1.tar.xz
+        sha256: 277807353a6726978996945af13e52829e3abd7a9a5b7fb2793894e18f1fcbb2
 
   - name: wxwidgets
     config-opts:
@@ -89,8 +89,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v4.8.0/libqalculate-4.8.0.tar.gz
-        sha256: c2761626a061b772da3cec9135c21e9b7ce5aa87a6bb47c9ddd7d82fc8f0f46c
+        url: https://github.com/Qalculate/libqalculate/releases/download/v4.8.1/libqalculate-4.8.1.tar.gz
+        sha256: a55fbdc14cb183c62a95e430823017b5f958f0758d3476578f8cc05369157c54
 
   - name: qalculate-gtk
     build-options:
@@ -103,7 +103,7 @@ modules:
       - --with-webkitgtk=4.1
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v4.8.0/qalculate-gtk-4.8.0.tar.gz
-        sha256: 5d8ef3e5e613f000177172f220243f88c83afcfaa19ef0465d5c723f4859bd26
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v4.8.1/qalculate-gtk-4.8.1.tar.gz
+        sha256: b97e84a5f52b277eefb8e5b9b60cfc7aeed3b243f92a9725ff9cc3aeeacf41c2
       - type: patch
         path: qalculate-search-provider.patch
