@@ -107,3 +107,5 @@ modules:
         sha256: 4fb840a42a2246a98db81431baf4622504a226b1d3cbbe36da5649926ad177a9
       - type: patch
         path: qalculate-search-provider.patch
+      - type: patch
+        path: developer-id.patch

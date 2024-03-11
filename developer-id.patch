@@ -1,0 +1,13 @@
+diff --git a/data/qalculate-gtk.appdata.xml.in b/data/qalculate-gtk.appdata.xml.in
+index 4bfb9d7..b206e32 100644
+--- a/data/qalculate-gtk.appdata.xml.in
++++ b/data/qalculate-gtk.appdata.xml.in
+@@ -35,7 +35,7 @@
+  <url type="help">https://qalculate.github.io/manual/index.html</url>
+  <url type="donation">https://www.paypal.me/HannaKnutsson</url>
+  <url type="translate">https://github.com/Qalculate/libqalculate/blob/master/README.translate</url>
+- <developer>
++ <developer id="io.github.Qalculate">
+   <name>Hanna Knutsson</name>
+  </developer>
+  <content_rating type="oars-1.0"/>
