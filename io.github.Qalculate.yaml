@@ -38,24 +38,6 @@ modules:
 
   - name: wxwidgets
     config-opts:
-      - --enable-shared
-      - --disable-static
-      - --disable-aui
-      - --disable-gstreamer8
-      - --disable-html
-      - --disable-htmphelp
-      - --disable-mdi
-      - --disable-mediactrl
-      - --disable-propgrid
-      - --disable-ribbon
-      - --disable-richtext
-      - --disable-stc
-      - --disable-webkit
-      - --disable-webview
-      - --disable-xrc
-      - --enable-unicode
-      - --with-gtk=3
-      - --without-opengl
       - --with-libjpeg
       - --with-libpng
       - --with-zlib
