@@ -31,27 +31,13 @@ modules:
       - type: archive
         url: https://ftp.gnu.org/gnu/mpfr/mpfr-4.2.1.tar.xz
         sha256: 277807353a6726978996945af13e52829e3abd7a9a5b7fb2793894e18f1fcbb2
+        x-checker-data:
+          type: anitya
+          project-id: 2019
+          url-template: https://ftp.gnu.org/gnu/mpfr/mpfr-$version.tar.xz
 
   - name: wxwidgets
     config-opts:
-      - --enable-shared
-      - --disable-static
-      - --disable-aui
-      - --disable-gstreamer8
-      - --disable-html
-      - --disable-htmphelp
-      - --disable-mdi
-      - --disable-mediactrl
-      - --disable-propgrid
-      - --disable-ribbon
-      - --disable-richtext
-      - --disable-stc
-      - --disable-webkit
-      - --disable-webview
-      - --disable-xrc
-      - --enable-unicode
-      - --with-gtk=3
-      - --without-opengl
       - --with-libjpeg
       - --with-libpng
       - --with-zlib
@@ -61,9 +47,13 @@ modules:
       - /share/bakefile
     sources:
       - type: archive
-        url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.5.1/wxWidgets-3.0.5.1.tar.bz2
-        sha256: 440f6e73cf5afb2cbf9af10cec8da6cdd3d3998d527598a53db87099524ac807
-
+        url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.6/wxWidgets-3.2.6.tar.bz2
+        sha256: 939e5b77ddc5b6092d1d7d29491fe67010a2433cf9b9c0d841ee4d04acb9dce7
+        x-checker-data:
+          type: anitya
+          project-id: 5150
+          url-template: https://github.com/wxWidgets/wxWidgets/releases/download/v$version/wxWidgets-$version.tar.bz2
+          
   - name: gnuplot
     config-opts:
       - --without-gd
@@ -76,8 +66,12 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/gnuplot/gnuplot-5.2.8.tar.gz
-        sha256: 60a6764ccf404a1668c140f11cc1f699290ab70daa1151bb58fed6139a28ac37
+        url: https://downloads.sourceforge.net/gnuplot/gnuplot-6.0.1.tar.gz
+        sha256: e85a660c1a2a1808ff24f7e69981ffcbac66a45c9dcf711b65610b26ea71379a
+        x-checker-data:
+          type: anitya
+          project-id: 1216
+          url-template: https://downloads.sourceforge.net/gnuplot/gnuplot-$version.tar.gz
 
   - name: libqalculate
     build-options:
@@ -91,6 +85,10 @@ modules:
       - type: archive
         url: https://github.com/Qalculate/libqalculate/releases/download/v5.3.0/libqalculate-5.3.0.tar.gz
         sha256: 61dd60b1d43ad3d2944cff9b2f45c9bc646c5a849c621133ef07231e8289e35b
+        x-checker-data:
+          type: anitya
+          project-id: 230126
+          url-template: https://github.com/Qalculate/libqalculate/releases/download/v$version/libqalculate-$version.tar.gz
 
   - name: qalculate-gtk
     build-options:
@@ -105,5 +103,9 @@ modules:
       - type: archive
         url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.3.0/qalculate-gtk-5.3.0.tar.gz
         sha256: 2cbeeaa6c820644a08427c7dbf1273bf55a1eb28650ecf425e3a420612d79c9f
+        x-checker-data:
+          type: anitya
+          project-id: 10166
+          url-template: https://github.com/Qalculate/qalculate-gtk/releases/download/v$version/qalculate-gtk-$version.tar.gz
       - type: patch
         path: qalculate-search-provider.patch
