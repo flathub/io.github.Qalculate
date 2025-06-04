@@ -47,8 +47,8 @@ modules:
       - /share/bakefile
     sources:
       - type: archive
-        url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.7/wxWidgets-3.2.7.tar.bz2
-        sha256: 69a1722f874d91cd1c9e742b72df49e0fab02890782cf794791c3104cee868c6
+        url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.8.1/wxWidgets-3.2.8.1.tar.bz2
+        sha256: ad0cf6c18815dcf1a6a89ad3c3d21a306cd7b5d99a602f77372ef1d92cb7d756
         x-checker-data:
           type: anitya
           project-id: 5150
@@ -66,8 +66,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/gnuplot/gnuplot-6.0.2.tar.gz
-        sha256: f68a3b0bbb7bbbb437649674106d94522c00bf2f285cce0c19c3180b1ee7e738
+        url: https://downloads.sourceforge.net/gnuplot/gnuplot-6.0.3.tar.gz
+        sha256: 2344e78bc78b296f66636a5d9e561b709b61d360185b718583c97a329f7ace5e
         x-checker-data:
           type: anitya
           project-id: 1216
