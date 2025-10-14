@@ -92,6 +92,7 @@ modules:
 
   - name: qalculate-gtk
     buildsystem: autotools
+    rm-configure: true
     build-options:
       arch:
         aarch64:
