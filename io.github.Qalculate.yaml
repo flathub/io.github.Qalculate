@@ -91,6 +91,7 @@ modules:
           url-template: https://github.com/Qalculate/libqalculate/releases/download/v$version/libqalculate-$version.tar.gz
 
   - name: qalculate-gtk
+    buildsystem: autotools
     build-options:
       arch:
         aarch64:
