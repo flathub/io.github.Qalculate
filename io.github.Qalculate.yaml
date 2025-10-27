@@ -66,8 +66,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/gnuplot/gnuplot-6.0.3.tar.gz
-        sha256: ec52e3af8c4083d4538152b3f13db47f6d29929a3f6ecec5365c834e77f251ab
+        url: https://downloads.sourceforge.net/gnuplot/gnuplot-6.0.3-c23.tar.gz
+        sha256: dab1b3aaa6146d73ec4d022d20ddf4be124c27d03a52ca2d9577f05336d3bf2e
         x-checker-data:
           type: anitya
           project-id: 1216
