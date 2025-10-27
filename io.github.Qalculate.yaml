@@ -1,6 +1,6 @@
 app-id: io.github.Qalculate
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: qalculate-gtk
 rename-appdata-file: qalculate-gtk.appdata.xml
@@ -47,8 +47,8 @@ modules:
       - /share/bakefile
     sources:
       - type: archive
-        url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.1/wxWidgets-3.3.1.tar.bz2
-        sha256: f936c8d694f9c49a367a376f99c751467150a4ed7cbf8f4723ef19b2d2d9998d
+        url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.8.1/wxWidgets-3.2.8.1.tar.bz2
+        sha256: ad0cf6c18815dcf1a6a89ad3c3d21a306cd7b5d99a602f77372ef1d92cb7d756
         x-checker-data:
           type: anitya
           project-id: 5150
@@ -66,8 +66,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/gnuplot/gnuplot-6.0.3.tar.gz
-        sha256: ec52e3af8c4083d4538152b3f13db47f6d29929a3f6ecec5365c834e77f251ab
+        url: https://downloads.sourceforge.net/gnuplot/gnuplot-6.0.3-c23.tar.gz
+        sha256: dab1b3aaa6146d73ec4d022d20ddf4be124c27d03a52ca2d9577f05336d3bf2e
         x-checker-data:
           type: anitya
           project-id: 1216
@@ -83,8 +83,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v5.8.0/libqalculate-5.8.0.tar.gz
-        sha256: 5595dc304de252945ee51bd68cef3b5f0dacf3ce1c75bd0a8f6c158c1c723741
+        url: https://github.com/Qalculate/libqalculate/releases/download/v5.8.1/libqalculate-5.8.1.tar.gz
+        sha256: 59588d69475cbb374b0b90ddef731802edd5b2da696ef706d0ca5fff4dbcfdfa
         x-checker-data:
           type: anitya
           project-id: 230126
@@ -103,8 +103,8 @@ modules:
       - --with-webkitgtk=4.1
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.8.0/qalculate-gtk-5.8.0.tar.gz
-        sha256: fdd74cbf011d5ff88219489033ec207d856aa116d3e16b729ccdbea9277a5d41
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.8.1/qalculate-gtk-5.8.1.tar.gz
+        sha256: 6e4ae008f10a46a6bd91adc68dacca33fabaee10cbd96481a367fee588d5f4f6
         x-checker-data:
           type: anitya
           project-id: 10166
