@@ -83,8 +83,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v5.8.1/libqalculate-5.8.1.tar.gz
-        sha256: 59588d69475cbb374b0b90ddef731802edd5b2da696ef706d0ca5fff4dbcfdfa
+        url: https://github.com/Qalculate/libqalculate/releases/download/v5.8.2/libqalculate-5.8.2.tar.gz
+        sha256: 7136f3c929e88e7cea0fa66427bc541dcc99c7ecbe0d67cb256bfc922d2127d1
         x-checker-data:
           type: anitya
           project-id: 230126
@@ -103,8 +103,8 @@ modules:
       - --with-webkitgtk=4.1
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.8.1/qalculate-gtk-5.8.1.tar.gz
-        sha256: 6e4ae008f10a46a6bd91adc68dacca33fabaee10cbd96481a367fee588d5f4f6
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.8.2/qalculate-gtk-5.8.2.tar.gz
+        sha256: 20a3d4c4c63f53236cdaa79234e8d51e4deb5b647aff32bc310b920261ce68a3
         x-checker-data:
           type: anitya
           project-id: 10166
