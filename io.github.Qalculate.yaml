@@ -47,8 +47,8 @@ modules:
       - /share/bakefile
     sources:
       - type: archive
-        url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.2.8.1/wxWidgets-3.2.8.1.tar.bz2
-        sha256: ad0cf6c18815dcf1a6a89ad3c3d21a306cd7b5d99a602f77372ef1d92cb7d756
+        url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.1/wxWidgets-3.3.1.tar.bz2
+        sha256: f936c8d694f9c49a367a376f99c751467150a4ed7cbf8f4723ef19b2d2d9998d
         x-checker-data:
           type: anitya
           project-id: 5150
@@ -83,8 +83,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v5.8.2/libqalculate-5.8.2.tar.gz
-        sha256: 7136f3c929e88e7cea0fa66427bc541dcc99c7ecbe0d67cb256bfc922d2127d1
+        url: https://github.com/Qalculate/libqalculate/releases/download/v5.9.0/libqalculate-5.9.0.tar.gz
+        sha256: 94d734b9303b3b68df61e4255f2eddeee346b66ec4b6e134f19e1a3cc3ff4a09
         x-checker-data:
           type: anitya
           project-id: 230126
@@ -103,8 +103,8 @@ modules:
       - --with-webkitgtk=4.1
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.8.2/qalculate-gtk-5.8.2.tar.gz
-        sha256: 20a3d4c4c63f53236cdaa79234e8d51e4deb5b647aff32bc310b920261ce68a3
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.9.0/qalculate-gtk-5.9.0.tar.gz
+        sha256: 39cd0bc5abe26edfc04a3064d4412d5af9f7197eafa0762a18a0cb6996f1021b
         x-checker-data:
           type: anitya
           project-id: 10166
