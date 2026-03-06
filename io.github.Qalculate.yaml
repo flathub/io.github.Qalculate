@@ -22,8 +22,6 @@ cleanup:
   - /share/man
   - '*.la'
 modules:
-  - shared-modules/intltool/intltool-0.51.json
-
   - name: wxwidgets
     config-opts:
       - --with-libjpeg
