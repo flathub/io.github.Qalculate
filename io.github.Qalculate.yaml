@@ -22,8 +22,6 @@ cleanup:
   - /share/man
   - '*.la'
 modules:
-  - shared-modules/intltool/intltool-0.51.json
-
   - name: wxwidgets
     config-opts:
       - --with-libjpeg
@@ -35,8 +33,8 @@ modules:
       - /share/bakefile
     sources:
       - type: archive
-        url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.1/wxWidgets-3.3.1.tar.bz2
-        sha256: f936c8d694f9c49a367a376f99c751467150a4ed7cbf8f4723ef19b2d2d9998d
+        url: https://github.com/wxWidgets/wxWidgets/releases/download/v3.3.2/wxWidgets-3.3.2.tar.bz2
+        sha256: 50a28cb668de47b0e006cd6ebed8cf4f76c1cac6116fb3c978c44478219103f2
         x-checker-data:
           type: anitya
           project-id: 5150
@@ -71,8 +69,8 @@ modules:
       - --enable-maintainer-mode
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v5.9.0/libqalculate-5.9.0.tar.gz
-        sha256: 94d734b9303b3b68df61e4255f2eddeee346b66ec4b6e134f19e1a3cc3ff4a09
+        url: https://github.com/Qalculate/libqalculate/releases/download/v5.10.0/libqalculate-5.10.0.tar.gz
+        sha256: 904592d33a98ed4a26a59fa34c855578e096144fb91965b8afc90e06797dba8e
         x-checker-data:
           type: anitya
           project-id: 230126
@@ -91,8 +89,8 @@ modules:
       - --with-webkitgtk=4.1
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.9.0/qalculate-gtk-5.9.0.tar.gz
-        sha256: 39cd0bc5abe26edfc04a3064d4412d5af9f7197eafa0762a18a0cb6996f1021b
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.10.0/qalculate-gtk-5.10.0.tar.gz
+        sha256: 310875ae42d4af3bef46bb5f0405496c26e8e8abe218caeb1270cde176c02691
         x-checker-data:
           type: anitya
           project-id: 10166
