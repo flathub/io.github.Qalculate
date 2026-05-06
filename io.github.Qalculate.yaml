@@ -23,10 +23,6 @@ cleanup:
   - '*.la'
 modules:
   - name: wxwidgets
-    config-opts:
-      - --with-libjpeg
-      - --with-libpng
-      - --with-zlib
     cleanup:
       - /bin
       - /lib/wx
@@ -41,15 +37,6 @@ modules:
           url-template: https://github.com/wxWidgets/wxWidgets/releases/download/v$version/wxWidgets-$version.tar.bz2
 
   - name: gnuplot
-    config-opts:
-      - --without-gd
-      - --without-libcerf
-      - --without-lua
-      - --with-readline=gnu
-      - --without-linux-vga
-      - --without-qt
-      - --enable-wxwidgets
-      - --enable-maintainer-mode
     sources:
       - type: archive
         url: https://downloads.sourceforge.net/gnuplot/gnuplot-6.0.4.tar.gz
@@ -60,13 +47,6 @@ modules:
           url-template: https://downloads.sourceforge.net/gnuplot/gnuplot-$version.tar.gz
 
   - name: libqalculate
-    build-options:
-      arch:
-        aarch64:
-          cxxflags: -fsigned-char
-    config-opts:
-      - --disable-static
-      - --enable-maintainer-mode
     sources:
       - type: archive
         url: https://github.com/Qalculate/libqalculate/releases/download/v5.10.0/libqalculate-5.10.0.tar.gz
@@ -77,16 +57,6 @@ modules:
           url-template: https://github.com/Qalculate/libqalculate/releases/download/v$version/libqalculate-$version.tar.gz
 
   - name: qalculate-gtk
-    buildsystem: autotools
-    rm-configure: true
-    build-options:
-      arch:
-        aarch64:
-          cxxflags: -fsigned-char
-    config-opts:
-      - --disable-static
-      - --enable-maintainer-mode
-      - --with-webkitgtk=4.1
     sources:
       - type: archive
         url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.10.0/qalculate-gtk-5.10.0.tar.gz
