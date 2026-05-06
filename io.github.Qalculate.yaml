@@ -57,6 +57,8 @@ modules:
           url-template: https://github.com/Qalculate/libqalculate/releases/download/v$version/libqalculate-$version.tar.gz
 
   - name: qalculate-gtk
+    config-opts:
+      - --with-webkitgtk=4.1
     sources:
       - type: archive
         url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.10.0/qalculate-gtk-5.10.0.tar.gz
