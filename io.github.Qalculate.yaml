@@ -14,7 +14,7 @@ finish-args:
   # Wayland access
   - --socket=wayland
   # Network access
-  # for Update Exchange Rates
+  # for exchange rates updates
   - --share=network
 cleanup:
   - /include
