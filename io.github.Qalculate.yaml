@@ -49,8 +49,8 @@ modules:
   - name: libqalculate
     sources:
       - type: archive
-        url: https://github.com/Qalculate/libqalculate/releases/download/v5.11.0/libqalculate-5.11.0.tar.gz
-        sha256: 6217a634eeb9659ebb4080c265dfab47d8f8dd4c33394b48fd5a1f83ef4538c4
+        url: https://github.com/Qalculate/libqalculate/releases/download/v5.12.0/libqalculate-5.12.0.tar.gz
+        sha256: f3dfdcf97d5a9e3a5bc0ebe66afd184721b606276eee3ba0ada8c92a5e71d44c
         x-checker-data:
           type: anitya
           project-id: 230126
@@ -61,8 +61,8 @@ modules:
       - --with-webkitgtk=4.1
     sources:
       - type: archive
-        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.11.0/qalculate-gtk-5.11.0.tar.gz
-        sha256: 529854fc5a3bd62a1a0e814879c576668b238604c5b2cb2c422979aeac355927
+        url: https://github.com/Qalculate/qalculate-gtk/releases/download/v5.12.0/qalculate-gtk-5.12.0.tar.gz
+        sha256: 4225eacefc30354f867dc14b7974efe8e8fcef031117def1098db652e1ad48b7
         x-checker-data:
           type: anitya
           project-id: 10166
